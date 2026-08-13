@@ -60,6 +60,8 @@ header {
   padding: 10px 0;
   background-color: #e9b44c;
   border-radius: 18px;
+  border: none;
+  cursor: pointer;
 }
 
 .our-story {
@@ -72,4 +74,25 @@ header {
 .our-story div img {
   width: 100%;
   border-radius: 12px;
+}
+
+.our-story .right-side {
+  display: grid;
+  align-items: center;
+}
+
+.right-side div h2 {
+  padding-bottom: 12px;
+}
+
+.right-side div p {
+  padding-bottom: 12px;
+}
+
+.right-side div button {
+  padding: 8px 12px;
+  border-radius: 18px;
+  background-color: #e9b44c;
+  border: none;
+  cursor: pointer;
 }
