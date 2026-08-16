@@ -96,3 +96,18 @@ header {
   border: none;
   cursor: pointer;
 }
+
+.popular-bg {
+  background-color: #f1e7d8;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card-container div {
+  background-color: #2e2622;
+  width: 200px;
+  height: 200px;
+}
